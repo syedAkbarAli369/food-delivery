@@ -17,7 +17,7 @@ const SingleProductPage = () => {
       <div className="h-1/2 flex flex-col gap-3">
         <h1 className="text-3xl font-bold uppercase ">{singleProduct.title}</h1>
         <p>{singleProduct.desc}</p>
-        <Price price={singleProduct.price} id={singleProduct.id} options={singleProduct.options}/>
+        <Price price={singleProduct.price} options={singleProduct.options}/>
       </div>
     </div>
   )
