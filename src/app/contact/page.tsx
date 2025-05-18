@@ -7,7 +7,7 @@ const Contact = () => {
       {/* LEFT: Contact Info */}
       <div className="flex-1 flex flex-col  space-y-6">
         <h1 className="text-3xl font-bold lg:text-4xl">Contact Us</h1>
-        <p className="text-lg">We'd love to hear from you! Reach us using the information below.</p>
+        <p className="text-lg">We would love to hear from you! Reach us using the information below.</p>
 
         <div className="flex flex-col gap-3">
           <p><strong>📍 Address:</strong> 123 Food Street, Karachi</p>

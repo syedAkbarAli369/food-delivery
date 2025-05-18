@@ -16,8 +16,10 @@ const Price = ({price, options}: Props) => {
   const [selected, setSelected] = useState(0); 
   
   useEffect(() => {
-    setTotal(quantity * (options ? price + options[selected].additionalPrice : price))
-  }, [quantity, selected])
+    const additional = options?.[selected]?.additionalPrice || 0;
+    setTotal(quantity * (price + additional));
+
+  }, [quantity, selected, price, options])
 
   return (
     <div className="flex flex-col gap-3">
