@@ -2,7 +2,7 @@
 "use client"
 import Countdown from "react-countdown"
 
-const endingDate = new Date("2025-05-27")
+const endingDate = new Date("2025-07-05")
 
 const CountDown = () => {
 
